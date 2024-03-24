@@ -7,13 +7,13 @@ int main()
     int n;
     cin>>n;
     
-    string s;
+    string str;
     
     while (n>0)
     {
-        cin>>s;
+        cin>>str;
         
-        if (s=="X++" || s=="++X")
+        if (str=="X++" || str=="++X")
         {
             X++;
         }
